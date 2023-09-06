@@ -8,10 +8,12 @@ module.exports = {
         'hover-down-item': '#616161',
         'border': 'hsl(0, 0%, 18.82%);',
         'first-color':'#888784',
-        'second-color':'#222222'
+        'second-color':'#222222',
+        'body-bg-color': '#0F0F0F'
       },
       width: {
-        'logo': '90px'
+        'logo': '90px',
+        'width-lg-search': '595px'
       }
     },
   },

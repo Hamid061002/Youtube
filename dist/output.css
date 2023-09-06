@@ -600,19 +600,14 @@ video {
   top: 3.5rem;
 }
 
-.ms-3 {
-  -webkit-margin-start: 0.75rem;
-          margin-inline-start: 0.75rem;
-}
-
-.me-16 {
-  -webkit-margin-end: 4rem;
-          margin-inline-end: 4rem;
-}
-
 .me-20 {
   -webkit-margin-end: 5rem;
           margin-inline-end: 5rem;
+}
+
+.ms-3 {
+  -webkit-margin-start: 0.75rem;
+          margin-inline-start: 0.75rem;
 }
 
 .block {
@@ -647,6 +642,10 @@ video {
   width: 2.5rem;
 }
 
+.w-16 {
+  width: 4rem;
+}
+
 .w-8 {
   width: 2rem;
 }
@@ -674,10 +673,6 @@ video {
 
 .justify-end {
   justify-content: flex-end;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .justify-between {
@@ -714,6 +709,11 @@ video {
   border-color: hsl(0, 0%, 18.82%);;
 }
 
+.bg-black {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
 .bg-hover-down-item {
   --tw-bg-opacity: 1;
   background-color: rgb(97 97 97 / var(--tw-bg-opacity));
@@ -722,6 +722,11 @@ video {
 .bg-second-color {
   --tw-bg-opacity: 1;
   background-color: rgb(34 34 34 / var(--tw-bg-opacity));
+}
+
+.bg-body-bg-color {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 15 15 / var(--tw-bg-opacity));
 }
 
 .p-1 {
@@ -742,19 +747,6 @@ video {
   padding-right: 0.75rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.pb-3 {
-  padding-bottom: 0.75rem;
-}
-
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
-
 .pb-1 {
   padding-bottom: 0.25rem;
 }
@@ -764,8 +756,8 @@ video {
           padding-inline-end: 0.75rem;
 }
 
-.text-center {
-  text-align: center;
+.text-right {
+  text-align: right;
 }
 
 .text-xs {
@@ -794,6 +786,15 @@ video {
 .hover\:bg-neutral-800:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(38 38 38 / var(--tw-bg-opacity));
+}
+
+.focus\:border-none:focus {
+  border-style: none;
+}
+
+.focus\:outline-none:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
 }
 
 @media (min-width: 640px) {
@@ -831,5 +832,24 @@ video {
   .sm\:ps-4 {
     -webkit-padding-start: 1rem;
             padding-inline-start: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:m-0 {
+    margin: 0px;
+  }
+
+  .lg\:w-width-lg-search {
+    width: 595px;
+  }
+
+  .lg\:justify-center {
+    justify-content: center;
+  }
+
+  .lg\:pe-14 {
+    -webkit-padding-end: 3.5rem;
+            padding-inline-end: 3.5rem;
   }
 }
