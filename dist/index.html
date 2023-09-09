@@ -27,7 +27,8 @@
         input:focus::after {
             content: '';
         }
-        #scrollBar::-webkit-scrollbar{
+
+        #scrollBar::-webkit-scrollbar {
             width: 0;
         }
     </style>
@@ -114,7 +115,8 @@
             <!-- microphone and search >sm -->
             <div class="hidden sm:flex sm:grow lg2:justify-center me-20 lg2:m-0 lg:pe-14">
                 <!-- microphone -->
-                <div class="flex items-center sm:ms-2 cursor-pointer rounded-full bg-second-color hover:bg-neutral-700">
+                <div
+                    class="flex relative items-center sm:ms-2 cursor-pointer rounded-full bg-second-color hover:bg-neutral-700">
                     <div class="w-10 h-10 p-2 relative">
                         <svg height="24" viewBox="0 0 24 24" width="24" focusable="false"
                             style="pointer-events: none; display: block; width: 100%; height: 100%;">
@@ -122,6 +124,9 @@
                                 d="M12 3c-1.66 0-3 1.37-3 3.07v5.86c0 1.7 1.34 3.07 3 3.07s3-1.37 3-3.07V6.07C15 4.37 13.66 3 12 3zm6.5 9h-1c0 3.03-2.47 5.5-5.5 5.5S6.5 15.03 6.5 12h-1c0 3.24 2.39 5.93 5.5 6.41V21h2v-2.59c3.11-.48 5.5-3.17 5.5-6.41z">
                             </path>
                         </svg>
+                    </div>
+                    <div class="absolute top-14 -left-8 h-6 w-max text-xs bg-hover-down-item rounded-md p-1">
+                        جستجو با صدای خودتان
                     </div>
                 </div>
                 <!-- search -->
@@ -160,9 +165,9 @@
         </header>
         <!-- end header section and body section -->
         <section class="grid grid-flow-col items-start pt-16 text-white p-3 pe-1 w-full fixed">
-            <div class="flex flex-col justify-center items-center">
+            <div class="flex flex-col justify-center items-center bg-green-800 pe-4">
                 <div
-                    class="flex px-5 pb-1.5 flex-1 relative overflow-hidden w560:flex-none w560:w-width-518 w700:flex-1 w700:w-full">
+                    class="flex px-5 pb-1.5 flex-1 w-full relative overflow-hidden w560:flex-none w560:w-width-545 w700:flex-1 w700:w-full">
                     <!-- arrow lef icon -->
                     <div class="flex items-center ms-1 cursor-pointer z-20">
                         <div class="w-10 h-10 p-2 bg-body-bg-color hover:bg-hover-left-icon rounded-full relative"
@@ -177,29 +182,53 @@
                         </div>
                     </div>
                     <!-- navbar -->
-                    <div class="z-10 flex pt-1 gap-x-3 overflow-hidden"
+                    <div class="z-10 flex pt-1 gap-x-3 overflow-hidden "
                         style="position: absolute;right: 15px;direction: rtl;">
-                        <div class="bg-first-item text-body-bg-color h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">همه
+                        <div
+                            class="bg-first-item text-body-bg-color h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            همه
                         </div>
-                        <div class="bg-navbar text-first-item h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">موسیقی</div>
-                        <div class="bg-navbar text-first-item h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">بازی</div>
-                        <div class="bg-navbar text-first-item h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">گلچین ها
+                        <div
+                            class="bg-navbar text-first-item h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            موسیقی</div>
+                        <div
+                            class="bg-navbar text-first-item h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            بازی</div>
+                        <div
+                            class="bg-navbar text-first-item h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            گلچین ها
                         </div>
-                        <div class="bg-navbar text-first-item h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">زنده</div>
-                        <div class="bg-navbar text-first-item h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">رپ خوانی
+                        <div
+                            class="bg-navbar text-first-item h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            زنده</div>
+                        <div
+                            class="bg-navbar text-first-item h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            رپ خوانی
                         </div>
-                        <div class="bg-navbar text-first-item h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">فوتبال</div>
-                        <div class="bg-navbar text-first-item h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">بازی مای
+                        <div
+                            class="bg-navbar text-first-item h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            فوتبال</div>
+                        <div
+                            class="bg-navbar text-first-item h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            بازی مای
                             ماجراجویی</div>
-                        <div class="bg-navbar text-first-item h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">اخیرا
+                        <div
+                            class="bg-navbar text-first-item h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            اخیرا
                             بارگزاری شده</div>
-                        <div class="bg-navbar text-first-item h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">تماشا شده
+                        <div
+                            class="bg-navbar text-first-item h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            تماشا شده
                         </div>
-                        <div class="bg-navbar text-first-item h-8 pt-1.5 px-2 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">جدید برای
+                        <div
+                            class="bg-navbar text-first-item h-8 pt-1.5 px-3 text-sm rounded-lg flex-none cursor-pointer hover:bg-neutral-700">
+                            جدید برای
                             شما</div>
                     </div>
                 </div>
-                <div class="bg-purple-700 overflow-y-scroll h-screen" id="scrollBar">Lorem ipsum dolor sit amet consectetur adipisicing
+                <!-- body (video) -->
+                <div class="overflow-y-scroll h-screen pe-4 text-justify" id="scrollBar">Lorem ipsum dolor sit amet
+                    consectetur adipisicing
                     elit. Omnis eligendi accusantium impedit ipsa facere voluptatum quas illo a cum veniam sit
                     praesentium vitae, quisquam blanditiis minima suscipit ipsam explicabo? Maiores.
                     Optio cum minus fugit repellat illum. Placeat et iste, aperiam pariatur dicta doloremque, fugiat
@@ -290,8 +319,11 @@
                     quaerat, ipsa animi reiciendis fugiat. Error adipisci, odit corrupti facilis similique est ea dicta
                     autem vitae quisquam!</div>
             </div>
-            <div class="h-screen w-width-72 p-1 flex flex-col gap-1 ">
-                <div class="flex flex-col gap-y-1.5 justify-center items-center h-74">
+            <!-- right section >800px <1320px -->
+            <div class="hidden h-screen w-width-72 p-1 w800:flex flex-col w1315:hidden gap-1">
+                <!-- صفحه اصلی -->
+                <div
+                    class="flex flex-col gap-y-1.5 justify-center items-center h-74 cursor-pointer hover:bg-neutral-800 rounded-md">
                     <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false"
                         style="pointer-events: none; display: block; width: 24px; height: 24px;">
                         <g>
@@ -300,7 +332,9 @@
                     </svg>
                     <span class="text-10 truncate w-14 text-center" dir="rtl">صفحه اصلی</span>
                 </div>
-                <div class="flex flex-col gap-y-1.5 justify-center items-center h-74">
+                <!-- فیلم های کوتاه -->
+                <div
+                    class="flex flex-col gap-y-1.5 justify-center items-center h-74 cursor-pointer hover:bg-neutral-800 rounded-md">
                     <svg height="24" viewBox="0 0 24 24" width="24" focusable="false"
                         style="pointer-events: none; display: block; width: 24px; height: 24px;">
                         <path fill="#fff"
@@ -309,7 +343,9 @@
                     </svg>
                     <span class="text-10 truncate w-14 text-center" dir="rtl">فیلم های کوتاهYoutube</span>
                 </div>
-                <div class="flex flex-col gap-y-1.5 justify-center items-center h-74">
+                <!-- اشتراک ها -->
+                <div
+                    class="flex flex-col gap-y-1.5 justify-center items-center h-74 cursor-pointer hover:bg-neutral-800 rounded-md">
                     <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false"
                         style="pointer-events: none; display: block; width: 24px; height: 24px;">
                         <path fill="#fff"
@@ -318,7 +354,9 @@
                     </svg>
                     <span class="text-10 truncate w-14 text-center" dir="rtl">اشتراک ها</span>
                 </div>
-                <div class="flex flex-col gap-y-1.5 justify-center items-center h-74">
+                <!-- کتابخانه -->
+                <div
+                    class="flex flex-col gap-y-1.5 justify-center items-center h-74 cursor-pointer hover:bg-neutral-800 rounded-md">
                     <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false"
                         style="pointer-events: none; display: block; width: 24px; height: 24px;">
                         <path fill="#fff" d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z">
@@ -327,7 +365,178 @@
                     <span class="text-10 truncate w-14 text-center" dir="rtl">کتابخانه</span>
                 </div>
             </div>
+            <!-- right section >1320px -->
+            <div class="hidden w1315:flex flex-col gap-2 w-width-225 p-3 pe-1 ">
+                <!-- first part -->
+                <div class=" ps-2 pe-1 pb-2.5 w-full border-b border-neutral-600">
+                    <div
+                        class="flex flex-row-reverse gap-x-7 p-2 pe-3 justify-start items-center cursor-pointer rounded-lg hover:bg-navbar bg-navbar">
+                        <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"
+                            focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                            <g>
+                                <path fill="#fff" d="M4 21V10.08l8-6.96 8 6.96V21h-6v-6h-4v6H4z"></path>
+                            </g>
+                        </svg>
+                        <span class="text-sm truncate text-center" dir="rtl">صفحه اصلی</span>
+                    </div>
+                    <div
+                        class="flex flex-row-reverse gap-x-7 p-2 pe-3 justify-start items-center cursor-pointer rounded-lg hover:bg-navbar">
+                        <svg height="24" viewBox="0 0 24 24" width="24" focusable="false"
+                            style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                            <path fill="#fff"
+                                d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z">
+                            </path>
+                        </svg>
+                        <span class="text-sm truncate text-center" dir="rtl">فیلم های کوتاه YouTube</span>
+                    </div>
+                    <div
+                        class="flex flex-row-reverse gap-x-7 p-2 pe-3 justify-start items-center cursor-pointer rounded-lg hover:bg-navbar">
+                        <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"
+                            focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                            <path fill="#fff"
+                                d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z">
+                            </path>
+                        </svg>
+                        <span class="text-sm truncate text-center" dir="rtl">اشتراک ها</span>
+                    </div>
+                </div>
+                <!-- second part -->
+                <div class="ps-2 pe-1 py-0.5 w-full border-b border-neutral-600">
+                    <div
+                        class="flex flex-row-reverse gap-x-7 p-2 pe-3 justify-start items-center cursor-pointer rounded-lg hover:bg-navbar">
+                        <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"
+                            focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                            <path fill="#fff"
+                                d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z">
+                            </path>
+                        </svg>
+                        <span class="text-sm truncate text-center" dir="rtl">کتابخانه</span>
+                    </div>
+                    <div
+                        class="flex flex-row-reverse gap-x-7 p-2 pe-3 justify-start items-center cursor-pointer rounded-lg hover:bg-navbar">
+                        <svg height="24" style="pointer-events: none; display: block; width: 24px; height: 24px;"
+                            viewBox="0 0 24 24" width="24" focusable="false">
+                            <g>
+                                <path fill="#fff"
+                                    d="M14.97 16.95 10 13.87V7h2v5.76l4.03 2.49-1.06 1.7zM22 12c0 5.51-4.49 10-10 10S2 17.51 2 12h1c0 4.96 4.04 9 9 9s9-4.04 9-9-4.04-9-9-9C8.81 3 5.92 4.64 4.28 7.38c-.11.18-.22.37-.31.56L3.94 8H8v1H1.96V3h1v4.74c.04-.09.07-.17.11-.25.11-.22.23-.42.35-.63C5.22 3.86 8.51 2 12 2c5.51 0 10 4.49 10 10z">
+                                </path>
+                            </g>
+                        </svg>
+                        <span class="text-sm truncate text-center" dir="rtl">سابقه</span>
+                    </div>
+                    <div
+                        class="flex flex-row-reverse gap-x-7 p-2 pe-3 justify-start items-center cursor-pointer rounded-lg hover:bg-navbar">
+                        <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><path fill="#fff" d="m10 8 6 4-6 4V8zm11-5v18H3V3h18zm-1 1H4v16h16V4z"></path></svg>
+                        <span class="text-sm truncate text-center" dir="rtl">ویدیو های شما</span>
+                    </div>
+                    <div
+                        class="flex flex-row-reverse gap-x-7 p-2 pe-3 justify-start items-center cursor-pointer rounded-lg hover:bg-navbar">
+                        <svg height="24" viewBox="0 0 24 24" width="24" focusable="false"
+                            style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                            <path fill="#fff"
+                                d="M14.97 16.95 10 13.87V7h2v5.76l4.03 2.49-1.06 1.7zM12 3c-4.96 0-9 4.04-9 9s4.04 9 9 9 9-4.04 9-9-4.04-9-9-9m0-1c5.52 0 10 4.48 10 10s-4.48 10-10 10S2 17.52 2 12 6.48 2 12 2z">
+                            </path>
+                        </svg>
+                        <span class="text-sm truncate text-center" dir="rtl">تماشا در فرصتی دیگر</span>
+                    </div>
+                    <div
+                        class="flex flex-row-reverse gap-x-7 p-2 pe-3 justify-start items-center cursor-pointer rounded-lg hover:bg-navbar">
+                        <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><path fill="#fff" d="M8 7c0 .55-.45 1-1 1s-1-.45-1-1 .45-1 1-1 1 .45 1 1zm-1 9c-.55 0-1 .45-1 1s.45 1 1 1 1-.45 1-1-.45-1-1-1zm3.79-7.77L21 18.44V20h-3.27l-5.76-5.76-1.27 1.27c.19.46.3.96.3 1.49 0 2.21-1.79 4-4 4s-4-1.79-4-4 1.79-4 4-4c.42 0 .81.08 1.19.2l1.37-1.37-1.11-1.11C8 10.89 7.51 11 7 11c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4c0 .43-.09.84-.21 1.23zm-.71.71-.43-.44.19-.58c.11-.34.16-.64.16-.92 0-1.65-1.35-3-3-3S4 5.35 4 7s1.35 3 3 3c.36 0 .73-.07 1.09-.21l.61-.24.46.46 1.11 1.11.71.71-.71.71-1.37 1.37-.43.43-.58-.18C7.55 14.05 7.27 14 7 14c-1.65 0-3 1.35-3 3s1.35 3 3 3 3-1.35 3-3c0-.38-.07-.75-.22-1.12l-.25-.61.47-.47 1.27-1.27.71-.71.71.71L18.15 19H20v-.15l-9.92-9.91zM17.73 4H21v1.56l-5.52 5.52-2.41-2.41L17.73 4zm.42 1-3.67 3.67 1 1L20 5.15V5h-1.85z"></path></svg>
+                        <span class="text-sm truncate text-center" dir="rtl">کلیپ های شما</span>
+                    </div>
+                </div>
+                <!-- third part -->
+                <div></div>
+                <!-- fourth part -->
+                <div></div>
+                <!-- fifth part -->
+                <div></div>
+                <!-- sixth part -->
+                <div></div>
+            </div>
         </section>
+    </div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, voluptate! Necessitatibus voluptatem, temporibus,
+        rerum rem, eos modi assumenda omnis praesentium nostrum corrupti dignissimos harum expedita eveniet explicabo
+        ducimus laborum vitae?
+        Labore, dolorem eaque eveniet facilis maxime ipsum vel asperiores et. Voluptates rem id veritatis fugiat vero
+        aliquid officiis deleniti error aut nobis, libero facilis, culpa necessitatibus. Illum quam quaerat autem.
+        Voluptatum architecto obcaecati, illo placeat ex quisquam unde deserunt amet? Autem natus quas distinctio.
+        Commodi sapiente aperiam, tenetur sed doloremque possimus maiores itaque totam, vel magni iure deleniti rem
+        autem?
+        Atque nisi, aperiam iusto harum officia asperiores perspiciatis aliquam nostrum et delectus incidunt nam
+        expedita. Natus, quo. Recusandae fugiat voluptatem animi, quo laudantium delectus rem iste atque vel dicta
+        quaerat?
+        Dolor nostrum consequuntur rerum vitae provident laudantium quo totam in illum odio! Recusandae, porro?
+        Asperiores corrupti facilis error quod natus rerum aliquam quibusdam voluptatibus nemo cum atque, adipisci,
+        doloremque earum?
+        Harum consectetur ex, facere blanditiis quis, modi, dolorem nisi delectus illum odit eaque. Corporis tempore
+        enim aliquam amet? Quod id animi distinctio ipsa ratione vitae reiciendis dolorem a perferendis dolor.
+        Itaque ut dicta accusantium dolorem numquam assumenda omnis, architecto officiis delectus qui sed eligendi iure.
+        Dolore in magni nihil cum aspernatur similique quis sapiente unde omnis cupiditate, earum nam fugiat?
+        Molestiae doloremque ipsum voluptas magni tempora, consequatur soluta alias ducimus, voluptatem fugiat obcaecati
+        voluptatibus accusantium non maxime officia assumenda aliquid voluptatum dolorem, ex hic unde? Culpa officia sit
+        perspiciatis aliquam!
+        Quam dolorum voluptas provident officia molestiae nobis numquam vitae, maiores facere. Distinctio, sapiente
+        reprehenderit! Excepturi ipsa quasi, distinctio, delectus placeat unde nisi, nam rem id officia soluta modi
+        adipisci iste.
+        Amet reprehenderit, quidem facilis ipsam esse minus ducimus voluptatem quia. Repudiandae, totam. Exercitationem
+        libero perspiciatis repudiandae vero, quaerat odit a id aspernatur voluptatibus quisquam. Tempora quasi amet
+        ullam soluta iusto.
+        Accusamus suscipit commodi beatae voluptatibus quos velit excepturi dolore ab, quia inventore dignissimos.
+        Dolores alias dignissimos, itaque aliquid aperiam, beatae perspiciatis ipsum veritatis adipisci asperiores nihil
+        magnam expedita fugit deserunt.
+        Quas quo facere, facilis ea mollitia rerum officia a. Qui velit, necessitatibus unde soluta autem iste quod
+        eaque mollitia, possimus dignissimos dolor, dicta accusamus illum error ipsam. Enim, qui cumque.
+        Dolore, ut. Nulla nostrum illum voluptates eos! Soluta totam debitis aliquam dolore consequuntur mollitia,
+        deleniti fugiat accusantium, eaque eos nostrum laboriosam ipsa vitae deserunt quod nihil! Ullam sapiente iste
+        quis!
+        In eum iusto necessitatibus sed dolor corporis fugit unde quas enim corrupti quibusdam consequuntur earum iure
+        quisquam, magni ducimus quae incidunt atque fuga, minus distinctio? Quisquam necessitatibus deserunt blanditiis
+        sunt!
+        Nisi vel delectus excepturi corrupti temporibus perferendis quibusdam cum dicta voluptatum, quasi quae, odit
+        odio enim fuga beatae dolor! Et inventore natus, explicabo quos placeat sed nostrum officia? Harum, ratione?
+        Officia iure quam ab magni nam debitis sequi. Autem corporis architecto consequatur, quasi velit corrupti omnis
+        deserunt enim! Voluptas possimus blanditiis impedit dignissimos enim pariatur aliquid exercitationem provident
+        similique excepturi.
+        Sapiente ratione placeat alias laboriosam similique non, quasi quas. Voluptatem soluta quis rerum vitae
+        reiciendis dignissimos sit sint amet natus deleniti cumque provident maxime, esse minus illo laboriosam sunt
+        itaque?
+        Enim placeat earum maxime deleniti deserunt possimus, totam provident vero vitae culpa similique laudantium
+        tempore velit ex harum temporibus expedita dignissimos sint. Quisquam sunt tempora magni officiis molestias quos
+        ipsa!
+        Culpa quidem, in repellat eaque explicabo magnam perspiciatis veniam, error ea fugiat molestiae pariatur
+        molestias sint quis libero consequatur. Et odit optio iure rerum dignissimos enim maxime sequi suscipit
+        deserunt.
+        Magni ab iste animi doloremque id, accusantium ex. Doloremque culpa itaque repellendus maxime possimus in nihil
+        nobis enim nemo aperiam animi provident blanditiis, ut harum aliquid quibusdam, repellat laborum ab.
+        Eaque, veniam minus illo maiores quasi vero optio ducimus, officia consequatur est excepturi iusto alias omnis
+        quam accusamus facilis obcaecati sed blanditiis itaque quas ea! Quidem est exercitationem culpa quasi?
+        Deleniti sint ab quod doloremque fugit fugiat incidunt tenetur voluptatum ratione quibusdam dolorem assumenda
+        veritatis recusandae odit quasi, eius minus. Amet eum dolores aperiam rerum fugiat architecto iste ullam
+        reprehenderit?
+        Commodi placeat facere ullam officia beatae molestiae consectetur cupiditate voluptatibus officiis. Tempore,
+        odio porro! Maiores, unde? Expedita aspernatur similique non, officia quia sint eos magnam laboriosam minima
+        quisquam incidunt pariatur.
+        Ad necessitatibus praesentium quo ducimus ab accusantium qui. Aperiam architecto corrupti itaque quasi quas,
+        saepe maiores, molestias quam expedita placeat iusto! Esse error doloremque reiciendis vitae rem magni
+        consequuntur voluptas?
+        Laborum maiores, distinctio accusamus aperiam possimus enim quibusdam repellendus? Voluptatem, vitae repellat
+        aspernatur voluptas suscipit earum dolorem temporibus sunt? Hic magni omnis dignissimos esse debitis?
+        Dignissimos eos vel officia quisquam.
+        Qui odio commodi exercitationem nostrum ullam, voluptatibus eveniet sapiente quia iure pariatur optio! Ab,
+        impedit dolor, labore modi fugit eius optio vel adipisci minima est quia itaque eos neque consequatur?
+        Numquam laborum deleniti exercitationem neque enim mollitia cumque adipisci facilis officiis, voluptates magni
+        pariatur harum quam amet distinctio similique quod optio assumenda rerum asperiores fugiat quaerat soluta
+        inventore. Doloribus, optio.
+        Ullam labore repellendus voluptatum saepe doloribus obcaecati odio ut, alias vitae neque aspernatur eos at,
+        animi dolor voluptatibus! Nihil, eaque veritatis veniam similique odio eius repellat reprehenderit ut iusto
+        numquam.
+        Dolorem reiciendis dicta, quo libero, quia minus ducimus ullam consectetur commodi perferendis itaque nobis
+        voluptatibus quam mollitia suscipit, explicabo ea vel repellendus distinctio praesentium cumque. Minus non omnis
+        dignissimos sapiente?
+        Neque dicta, sed animi delectus beatae vero eos ad similique cum nisi voluptatum autem culpa pariatur earum
+        totam et debitis laudantium mollitia ipsum cumque, architecto velit veritatis deserunt accusantium? Ratione!
     </div>
     <script src="//unpkg.com/alpinejs" defer></script>
 </body>

@@ -12,23 +12,27 @@ module.exports = {
         'body-bg-color': '#0F0F0F',
         'hover-left-icon': '#343434',
         'first-item': '#F1F1F1',
-        'navbar': '#272727'
+        'navbar': '#272727',
+        'white-bg': '#121212',
       },
       width: {
         'logo': '90px',
         'width-72': '72px',
+        'width-84': '84px',
         'width-lg-search': '600px',
-        'width-518': '518px',
+        'width-545': '545px',
+        'width-225': '225px'
       },
       height:{
-        74:'74px'
+        74:'74px',
       },
       screens: {
         lg2: '1150px',
         w430: '430px',
         w560: '560px',
         w700: '700px',
-        w800: '800px'
+        w800: '800px',
+        w1315: '1315px'
       },
       fontSize: {
         10: '10px'
