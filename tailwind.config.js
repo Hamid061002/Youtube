@@ -20,6 +20,7 @@ module.exports = {
         'width-72': '72px',
         'width-84': '84px',
         'width-lg-search': '600px',
+        'width-500': '515px',
         'width-545': '545px',
         'width-225': '225px'
       },
