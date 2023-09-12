@@ -20,6 +20,7 @@ module.exports = {
         'width-72': '72px',
         'width-84': '84px',
         'width-lg-search': '600px',
+        'width-490': '480px',
         'width-500': '515px',
         'width-545': '545px',
         'width-225': '225px'
@@ -30,6 +31,7 @@ module.exports = {
       screens: {
         lg2: '1150px',
         w430: '430px',
+        w530: '530px',
         w560: '560px',
         w700: '700px',
         w800: '800px',
