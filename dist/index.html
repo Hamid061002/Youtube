@@ -37,15 +37,15 @@
             width: 0;
         }
 
-        .leftSpans{
+        .leftSpans {
             visibility: hidden;
         }
 
-        .leftSpansHover:hover>div>div>.leftSpans{
+        .leftSpansHover:hover>div>div>.leftSpans {
             visibility: visible;
         }
 
-        .timesShowHover:hover>.timesShow{
+        .timesShowHover:hover>.timesShow {
             visibility: hidden;
         }
     </style>
@@ -78,7 +78,8 @@
                                 d="M10 20h4c0 1.1-.9 2-2 2s-2-.9-2-2zm10-2.65V19H4v-1.65l2-1.88v-5.15C6 7.4 7.56 5.1 10 4.34v-.38c0-1.42 1.49-2.5 2.99-1.76.65.32 1.01 1.03 1.01 1.76v.39c2.44.75 4 3.06 4 5.98v5.15l2 1.87zm-1 .42-2-1.88v-5.47c0-2.47-1.19-4.36-3.13-5.1-1.26-.53-2.64-.5-3.84.03C8.15 6.11 7 7.99 7 10.42v5.47l-2 1.88V18h14v-.23z">
                             </path>
                         </svg>
-                        <div class="absolute absolutes top-14 -left-1 h-6 w-max text-xs bg-hover-down-item rounded-md p-1">
+                        <div
+                            class="absolute absolutes top-14 -left-1 h-6 w-max text-xs bg-hover-down-item rounded-md p-1">
                             اعلان ها
                         </div>
                     </div>
@@ -92,7 +93,8 @@
                                 d="M14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2zm3-7H3v12h14v-6.39l4 1.83V8.56l-4 1.83V6m1-1v3.83L22 7v8l-4-1.83V19H2V5h16z">
                             </path>
                         </svg>
-                        <div class="absolute absolutes top-14 -left-2 h-6 w-max text-xs bg-hover-down-item rounded-md p-1">
+                        <div
+                            class="absolute absolutes top-14 -left-2 h-6 w-max text-xs bg-hover-down-item rounded-md p-1">
                             ایجاد کردن
                         </div>
                     </div>
@@ -108,7 +110,8 @@
                                     d="M12 3c-1.66 0-3 1.37-3 3.07v5.86c0 1.7 1.34 3.07 3 3.07s3-1.37 3-3.07V6.07C15 4.37 13.66 3 12 3zm6.5 9h-1c0 3.03-2.47 5.5-5.5 5.5S6.5 15.03 6.5 12h-1c0 3.24 2.39 5.93 5.5 6.41V21h2v-2.59c3.11-.48 5.5-3.17 5.5-6.41z">
                                 </path>
                             </svg>
-                            <div class="absolute absolutes top-14 -left-9 h-6 w-max text-xs bg-hover-down-item rounded-md p-1">
+                            <div
+                                class="absolute absolutes top-14 -left-9 h-6 w-max text-xs bg-hover-down-item rounded-md p-1">
                                 جستجو با صدای خودتان
                             </div>
                         </div>
@@ -123,7 +126,8 @@
                                     d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z">
                                 </path>
                             </svg>
-                            <div class="absolute absolutes top-14 left-0 h-6 w-max text-xs bg-hover-down-item rounded-md p-1">
+                            <div
+                                class="absolute absolutes top-14 left-0 h-6 w-max text-xs bg-hover-down-item rounded-md p-1">
                                 جستجو
                             </div>
                         </button>
@@ -247,14 +251,15 @@
                 </div>
                 <!-- body (videos) -->
                 <div class="overflow-y-scroll h-screen px-4 pt-6 text-justify" id="scrollBar">
-                    <div class="grid grid-cols-1 w700:grid-cols-2 lg2:grid-cols-3 gap-x-4 gap-y-8">
+                    <div class="grid grid-cols-1 w700:grid-cols-2 lg2:grid-cols-3 gap-x-4 gap-y-8 mb-32">
                         <!-- a video part  -->
-                        <div class="flex justify-center items-center cursor-pointer">
+                        <div class="flex justify-center items-start cursor-pointer">
                             <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
                                 <!-- video cover -->
                                 <span class="relative timesShowHover">
                                     <img src="../photos/hq720.webp" class="w-full rounded-lg">
-                                    <span class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
                                 </span>
                                 <!-- discription -->
                                 <div class="flex pt-2 leftSpansHover">
@@ -262,27 +267,36 @@
                                     <div class="text-end flex-1">
                                         <div class="text-base pb-2 w560:w-width-490 w700:w-full">
                                             <div class="float-left leftSpans">
-                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><path fill="#fff" d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
                                             </div>
                                             <span class="">بهترین قسمت آزمایشگاه Dalu - Azmayeshgah (REACTION!!!)</span>
                                         </div>
                                         <div class="text-sm text-neutral-400">Geezer</div>
-                                        <span class="text-end text-sm text-neutral-400" dir="rtl">1.9هزار•2 هفته پیش</span>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">1.9هزار بازدید•2 هفته
+                                            پیش</span>
                                     </div>
                                     <!-- channel's profile -->
                                     <div class="pt-3 ps-3">
-                                        <img src="../photos/profiles/channels4_profile.jpg" class="rounded-full" style="width: 36px;">
+                                        <img src="../photos/profiles/channels4_profile.jpg" class="rounded-full"
+                                            style="width: 36px;">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- a video part  -->
-                        <div class="flex justify-center items-center cursor-pointer">
+                        <div class="flex justify-center items-start cursor-pointer">
                             <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
                                 <!-- video cover -->
                                 <span class="relative timesShowHover">
-                                    <img src="../photos/hq720.webp" class="w-full rounded-lg">
-                                    <span class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                    <img src="../photos/ferdosipour.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
                                 </span>
                                 <!-- discription -->
                                 <div class="flex pt-2 leftSpansHover">
@@ -290,27 +304,36 @@
                                     <div class="text-end flex-1">
                                         <div class="text-base pb-2">
                                             <span class="float-left leftSpans">
-                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><path fill="#fff" d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
                                             </span>
-                                            <span class="">بهترین قسمت آزمایشگاه Dalu - Azmayeshgah (REACTION!!!)</span>
+                                            <span class="">بخش دوم گفت‌وگوی عادل فردوسی‌پور و پژمان جمشیدی</span>
                                         </div>
-                                        <div class="text-sm text-neutral-400">Geezer</div>
-                                        <span class="text-end text-sm text-neutral-400" dir="rtl">1.9هزار•2 هفته پیش</span>
+                                        <div class="text-sm text-neutral-400">Football360 || فوتبال ۳۶۰</div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">414 هزار بازدید •1 ماه
+                                            پیش</span>
                                     </div>
                                     <!-- channel's profile -->
                                     <div class="pt-3 ps-3">
-                                        <img src="../photos/profiles/channels4_profile.jpg" class="rounded-full" style="width: 36px;">
+                                        <img src="../photos/profiles/futball360.jpg" class="rounded-full"
+                                            style="width: 36px;">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- a video part  -->
-                        <div class="flex justify-center items-center cursor-pointer">
+                        <div class="flex justify-center items-start cursor-pointer">
                             <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
                                 <!-- video cover -->
                                 <span class="relative timesShowHover">
-                                    <img src="../photos/hq720.webp" class="w-full rounded-lg">
-                                    <span class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                    <img src="../photos/chvrsi.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
                                 </span>
                                 <!-- discription -->
                                 <div class="flex pt-2 leftSpansHover">
@@ -318,27 +341,47 @@
                                     <div class="text-end flex-1">
                                         <div class="text-base pb-2">
                                             <span class="float-left leftSpans">
-                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><path fill="#fff" d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
                                             </span>
-                                            <span class="">بهترین قسمت آزمایشگاه Dalu - Azmayeshgah (REACTION!!!)</span>
+                                            <span class="">Chvrsi - Daam (Behind The Scenes)</span>
                                         </div>
-                                        <div class="text-sm text-neutral-400">Geezer</div>
-                                        <span class="text-end text-sm text-neutral-400" dir="rtl">1.9هزار•2 هفته پیش</span>
+                                        <div class="text-sm text-neutral-400 flex justify-end items-center">
+                                            <div style="width: 14px; height: 14px; fill: currentcolor;"><svg
+                                                    enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                                    <path
+                                                        d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <span class="ms-1">Chvrsi</span>
+                                        </div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">197 بازدید•10 دقیقه
+                                            پیش</span>
                                     </div>
                                     <!-- channel's profile -->
                                     <div class="pt-3 ps-3">
-                                        <img src="../photos/profiles/channels4_profile.jpg" class="rounded-full" style="width: 36px;">
+                                        <img src="../photos/profiles/chvrsi.jpg" class="rounded-full"
+                                            style="width: 36px;">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- a video part  -->
-                        <div class="flex justify-center items-center cursor-pointer">
+                        <div class="flex justify-center items-start cursor-pointer">
                             <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
                                 <!-- video cover -->
                                 <span class="relative timesShowHover">
-                                    <img src="../photos/hq720.webp" class="w-full rounded-lg">
-                                    <span class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                    <img src="../photos/khamzat.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
                                 </span>
                                 <!-- discription -->
                                 <div class="flex pt-2 leftSpansHover">
@@ -346,27 +389,82 @@
                                     <div class="text-end flex-1">
                                         <div class="text-base pb-2">
                                             <span class="float-left leftSpans">
-                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><path fill="#fff" d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
                                             </span>
-                                            <span class="">بهترین قسمت آزمایشگاه Dalu - Azmayeshgah (REACTION!!!)</span>
+                                            <span class="">KHAMZAT CHIMAEV - THE MOVIE</span>
                                         </div>
-                                        <div class="text-sm text-neutral-400">Geezer</div>
-                                        <span class="text-end text-sm text-neutral-400" dir="rtl">1.9هزار•2 هفته پیش</span>
+                                        <div class="text-sm text-neutral-400">MMA Documentaries</div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">3.5 میلیون بازدید•1سال پیش</span>
                                     </div>
                                     <!-- channel's profile -->
                                     <div class="pt-3 ps-3">
-                                        <img src="../photos/profiles/channels4_profile.jpg" class="rounded-full" style="width: 36px;">
+                                        <img src="../photos/profiles/khamzat.jpg" class="rounded-full"
+                                            style="width: 36px;">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- a video part  -->
-                        <div class="flex justify-center items-center cursor-pointer">
+                        <div class="flex justify-center items-start cursor-pointer">
                             <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
                                 <!-- video cover -->
                                 <span class="relative timesShowHover">
-                                    <img src="../photos/hq720.webp" class="w-full rounded-lg">
-                                    <span class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                    <img src="../photos/uiux.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2 text-ellipsis h-[50px] overflow-hidden">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="">Build and Deploy a Fully Responsive Restaurant Website with
+                                                Modern UI and UX i...</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400 flex justify-end items-center">
+                                            <div style="width: 14px; height: 14px; fill: currentcolor;"><svg height="24"
+                                                    viewBox="0 0 24 24" width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                                    <path
+                                                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <span class="ms-1">JavaScript Mastery</span>
+                                        </div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">569 هزار بازدید•1 سال پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/js.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/nima dw.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
                                 </span>
                                 <!-- discription -->
                                 <div class="flex pt-2 leftSpansHover">
@@ -374,27 +472,35 @@
                                     <div class="text-end flex-1">
                                         <div class="text-base pb-2">
                                             <span class="float-left leftSpans">
-                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><path fill="#fff" d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
                                             </span>
-                                            <span class="">بهترین قسمت آزمایشگاه Dalu - Azmayeshgah (REACTION!!!)</span>
+                                            <span class="">Done Done Stream - DW & Elman - 8 October 2023</span>
                                         </div>
-                                        <div class="text-sm text-neutral-400">Geezer</div>
-                                        <span class="text-end text-sm text-neutral-400" dir="rtl">1.9هزار•2 هفته پیش</span>
+                                        <div class="text-sm text-neutral-400">Nima DW</div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">1.2هزار•پخش جریانی 2 روز پیش انجام شد</span>
                                     </div>
                                     <!-- channel's profile -->
                                     <div class="pt-3 ps-3">
-                                        <img src="../photos/profiles/channels4_profile.jpg" class="rounded-full" style="width: 36px;">
+                                        <img src="../photos/profiles/nima dw.jpg" class="rounded-full"
+                                            style="width: 36px;">
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <!-- a video part  -->
-                        <div class="flex justify-center items-center cursor-pointer">
+                        <div class="flex justify-center items-start cursor-pointer">
                             <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
                                 <!-- video cover -->
                                 <span class="relative timesShowHover">
-                                    <img src="../photos/hq720.webp" class="w-full rounded-lg">
-                                    <span class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                    <img src="../photos/hidden.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
                                 </span>
                                 <!-- discription -->
                                 <div class="flex pt-2 leftSpansHover">
@@ -402,113 +508,479 @@
                                     <div class="text-end flex-1">
                                         <div class="text-base pb-2">
                                             <span class="float-left leftSpans">
-                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 24px; height: 24px;"><path fill="#fff" d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z"></path></svg>
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
                                             </span>
-                                            <span class="">بهترین قسمت آزمایشگاه Dalu - Azmayeshgah (REACTION!!!)</span>
+                                            <span>Ghol Midam Bet (Piano Version) - Mehrad Hidden</span>
                                         </div>
-                                        <div class="text-sm text-neutral-400">Geezer</div>
-                                        <span class="text-end text-sm text-neutral-400" dir="rtl">1.9هزار•2 هفته پیش</span>
+                                        <div class="text-sm text-neutral-400 flex justify-end items-center">
+                                            <div style="width: 14px; height: 14px; fill: currentcolor;"><svg
+                                                    enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                                    <path
+                                                        d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <span class="ms-1">Mehrad Hidden</span>
+                                        </div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">60هزار بازدید•3 روز پیش</span>
                                     </div>
                                     <!-- channel's profile -->
                                     <div class="pt-3 ps-3">
-                                        <img src="../photos/profiles/channels4_profile.jpg" class="rounded-full" style="width: 36px;">
+                                        <img src="../photos/profiles/hidden.jpg" class="rounded-full"
+                                            style="width: 36px;">
                                     </div>
                                 </div>
                             </div>
                         </div>
-
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/sajad shahi.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span>Sajad Shahi - Hitman (Official Music Video) (Directed by @Aliheyza)</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400">
+                                            <span class="ms-1">Sajad Shahi</span>
+                                        </div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">27هزار بازدید•3 ماه پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/sajad shahi.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/tash.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span>پادکست تش - اپیزود سه - یوتیوب تش چیه؟</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400">
+                                            <span class="ms-1">Mahdi Shajari</span>
+                                        </div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">21هزار بازدید•8 روز پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/tash.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/hq720.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2 w560:w-width-490 w700:w-full">
+                                            <div class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <span class="">بهترین قسمت آزمایشگاه Dalu - Azmayeshgah (REACTION!!!)</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400">Geezer</div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">1.9هزار بازدید•2 هفته
+                                            پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/channels4_profile.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/ferdosipour.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="">بخش دوم گفت‌وگوی عادل فردوسی‌پور و پژمان جمشیدی</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400">Football360 || فوتبال ۳۶۰</div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">414 هزار بازدید •1 ماه
+                                            پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/futball360.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/chvrsi.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="">Chvrsi - Daam (Behind The Scenes)</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400 flex justify-end items-center">
+                                            <div style="width: 14px; height: 14px; fill: currentcolor;"><svg
+                                                    enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                                    <path
+                                                        d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <span class="ms-1">Chvrsi</span>
+                                        </div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">197 بازدید•10 دقیقه
+                                            پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/chvrsi.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/khamzat.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="">KHAMZAT CHIMAEV - THE MOVIE</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400">MMA Documentaries</div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">3.5 میلیون بازدید•1سال پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/khamzat.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/uiux.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2 text-ellipsis h-[50px] overflow-hidden">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="">Build and Deploy a Fully Responsive Restaurant Website with
+                                                Modern UI and UX i...</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400 flex justify-end items-center">
+                                            <div style="width: 14px; height: 14px; fill: currentcolor;"><svg height="24"
+                                                    viewBox="0 0 24 24" width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                                    <path
+                                                        d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zM9.8 17.3l-4.2-4.1L7 11.8l2.8 2.7L17 7.4l1.4 1.4-8.6 8.5z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <span class="ms-1">JavaScript Mastery</span>
+                                        </div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">569 هزار بازدید•1 سال پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/js.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/nima dw.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span class="">Done Done Stream - DW & Elman - 8 October 2023</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400">Nima DW</div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">1.2هزار•پخش جریانی 2 روز پیش انجام شد</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/nima dw.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/hidden.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span>Ghol Midam Bet (Piano Version) - Mehrad Hidden</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400 flex justify-end items-center">
+                                            <div style="width: 14px; height: 14px; fill: currentcolor;"><svg
+                                                    enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                                                    <path
+                                                        d="M12 4v9.38c-.73-.84-1.8-1.38-3-1.38-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4V8h6V4h-7z">
+                                                    </path>
+                                                </svg>
+                                            </div>
+                                            <span class="ms-1">Mehrad Hidden</span>
+                                        </div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">60هزار بازدید•3 روز پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/hidden.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/sajad shahi.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span>Sajad Shahi - Hitman (Official Music Video) (Directed by @Aliheyza)</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400">
+                                            <span class="ms-1">Sajad Shahi</span>
+                                        </div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">27هزار بازدید•3 ماه پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/sajad shahi.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- a video part  -->
+                        <div class="flex justify-center items-start cursor-pointer">
+                            <div class="flex flex-col items-end w-full w560:w-width-500 w700:w-full">
+                                <!-- video cover -->
+                                <span class="relative timesShowHover">
+                                    <img src="../photos/tash.webp" class="w-full rounded-lg">
+                                    <span
+                                        class="timesShow absolute bottom-1 left-1 z-10 px-2 py-0.5 text-sm rounded-xl bg-body-bg-color bg-opacity-70">6:33</span>
+                                </span>
+                                <!-- discription -->
+                                <div class="flex pt-2 leftSpansHover">
+                                    <!-- information -->
+                                    <div class="text-end flex-1">
+                                        <div class="text-base pb-2">
+                                            <span class="float-left leftSpans">
+                                                <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24"
+                                                    width="24" focusable="false"
+                                                    style="pointer-events: none; display: block; width: 24px; height: 24px;">
+                                                    <path fill="#fff"
+                                                        d="M12 16.5c.83 0 1.5.67 1.5 1.5s-.67 1.5-1.5 1.5-1.5-.67-1.5-1.5.67-1.5 1.5-1.5zM10.5 12c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5zm0-6c0 .83.67 1.5 1.5 1.5s1.5-.67 1.5-1.5-.67-1.5-1.5-1.5-1.5.67-1.5 1.5z">
+                                                    </path>
+                                                </svg>
+                                            </span>
+                                            <span>پادکست تش - اپیزود سه - یوتیوب تش چیه؟</span>
+                                        </div>
+                                        <div class="text-sm text-neutral-400">
+                                            <span class="ms-1">Mahdi Shajari</span>
+                                        </div>
+                                        <span class="text-end text-sm text-neutral-400" dir="rtl">21هزار بازدید•8 روز پیش</span>
+                                    </div>
+                                    <!-- channel's profile -->
+                                    <div class="pt-3 ps-3">
+                                        <img src="../photos/profiles/tash.jpg" class="rounded-full"
+                                            style="width: 36px;">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    Lorem ipsum dolor sit amet
-                    consectetur adipisicing
-                    elit. Omnis eligendi accusantium impedit ipsa facere voluptatum quas illo a cum veniam sit
-                    praesentium vitae, quisquam blanditiis minima suscipit ipsam explicabo? Maiores.
-                    Optio cum minus fugit repellat illum. Placeat et iste, aperiam pariatur dicta doloremque, fugiat
-                    expedita totam quisquam quasi excepturi voluptatum ipsum saepe! Itaque hic ex ipsa vel neque nihil
-                    maiores?
-                    Impedit cumque voluptatibus vitae architecto dolores laudantium, aperiam perferendis corporis quo
-                    veritatis vero ex ratione repellat, ea quia eaque inventore voluptatum exercitationem. Minima quidem
-                    obcaecati nulla enim, deleniti nostrum consectetur?
-                    Aperiam sit corrupti temporibus! Blanditiis vel, facilis voluptatem velit id veniam iste nemo.
-                    Quibusdam inventore placeat incidunt? Fuga inventore placeat iure expedita! Eum vero quis iste
-                    nesciunt numquam veniam quam.
-                    Vitae laudantium eum totam aut, eos velit explicabo. Eum at doloribus qui ullam quos voluptatibus
-                    nulla expedita illum? Alias explicabo beatae iure voluptas perspiciatis praesentium vel amet sint
-                    sequi fugiat.
-                    Voluptas quas tenetur repudiandae dolore porro blanditiis dolorem eum eius minus eos quos assumenda
-                    necessitatibus illum ea doloremque quisquam, quo nulla? Perferendis earum quo, hic mollitia modi eum
-                    saepe rem!
-                    Similique esse excepturi qui provident impedit officia nihil tempore quae voluptas nostrum,
-                    perferendis fugit eaque blanditiis omnis facere, libero reiciendis veniam aut magni voluptate atque!
-                    Alias unde deserunt ea recusandae.
-                    Dolorum, laboriosam blanditiis exercitationem quos consectetur inventore fugit ratione dolorem
-                    tempore assumenda est corrupti nostrum voluptates. Nisi dolor, suscipit nobis laborum, error
-                    voluptates vitae ad tenetur quas, quidem qui? Ullam.
-                    Dolore officia magnam vitae similique totam, recusandae quasi accusamus nisi tempora a ab autem
-                    asperiores quis dolores hic beatae in, reprehenderit cupiditate quas ullam, illo repellendus? Rem
-                    quam aut velit.
-                    Exercitationem, quasi tempora, omnis vitae non laborum commodi voluptatem maxime id enim accusamus.
-                    Vitae nostrum unde repudiandae. Cum provident dolores in, est amet deserunt quibusdam dolorem
-                    facilis at? Fuga, eum?
-                    Minima sapiente sequi recusandae dolore doloribus nesciunt doloremque dolorum rem! Incidunt placeat
-                    ducimus sit ratione ea deserunt culpa magnam deleniti animi nostrum, voluptates odio quas provident
-                    natus vel! Soluta, qui.
-                    Omnis quas praesentium nesciunt reprehenderit explicabo doloremque officiis enim tenetur cumque id
-                    cum illum beatae eum esse, hic aliquam quis delectus. Mollitia, sunt debitis incidunt deleniti
-                    tenetur accusamus dicta illum.
-                    Debitis ducimus voluptatum magnam corrupti et optio, aliquid impedit mollitia facere tenetur natus
-                    repellat voluptatibus nisi fugiat nemo veniam labore nostrum! Sapiente optio quae minus, placeat
-                    amet veniam sunt aut.
-                    Sed rerum minima officia dolore eligendi sunt repellat earum fugiat vel consequuntur placeat,
-                    blanditiis facere sint cum atque commodi? Quos facere earum qui architecto voluptatem quia commodi
-                    nobis molestiae dolore.
-                    Vitae harum dolorem iusto debitis dolor ea tempore ipsa quo ex numquam accusantium quam possimus
-                    sapiente provident impedit eum neque, asperiores necessitatibus dicta. Eius doloremque itaque
-                    perferendis exercitationem, sapiente deleniti.
-                    Adipisci ad, autem fuga officiis aliquam harum accusantium magnam eum perferendis sint nihil?
-                    Temporibus molestias eveniet quo, dicta distinctio fuga pariatur est deleniti itaque quod. Dolorem
-                    saepe odit ab cupiditate?
-                    Corrupti ea voluptate quam perferendis cum quisquam. Quam sint molestias nulla magnam voluptates.
-                    Harum deserunt, quo sapiente cupiditate esse consectetur est cum ut nisi id quia natus adipisci
-                    voluptatibus reiciendis?
-                    In, maxime! Rem reiciendis accusamus omnis, deserunt et unde eius architecto commodi sit, blanditiis
-                    expedita sint, pariatur ad quae aspernatur quam? Itaque magni soluta, modi optio alias possimus
-                    quaerat molestiae?
-                    Unde quidem quisquam architecto alias amet suscipit nesciunt repellat cumque saepe, ut sunt minima
-                    modi in dicta voluptas nisi, exercitationem eos. Officia nulla natus dolorum. Fugit asperiores
-                    deserunt quo. Tempore.
-                    Culpa nemo a ab exercitationem neque minima, ut consequatur maxime rerum inventore hic sed aut eos
-                    id ex sapiente similique voluptates accusantium consequuntur. Voluptates aut adipisci laudantium
-                    repellendus alias nostrum!
-                    Nulla, sunt suscipit. Accusamus amet libero in cumque tenetur inventore dicta labore ipsa aliquid
-                    officia, odit ratione quo harum. Odio sapiente facere accusamus nobis recusandae, ut illum ducimus
-                    minima nostrum!
-                    Quia distinctio corrupti neque dolor illo assumenda id saepe natus mollitia eum quisquam cupiditate
-                    debitis non consequuntur dolorem enim quod soluta explicabo ut impedit, voluptatum quas? Provident
-                    assumenda minima eum.
-                    Officia quas voluptatum ipsum eligendi eius quaerat. Harum, voluptatibus illo. In nulla quidem
-                    repellat modi eos porro, consequatur molestiae ducimus error laborum, earum adipisci sed rerum
-                    veritatis illo, quas tempore.
-                    Dolorem nam quod eos fugiat officia perferendis eius quae quas qui fuga repellendus reprehenderit
-                    ullam nisi, aliquid veritatis adipisci? Eaque, placeat nobis eum deserunt accusantium quas voluptate
-                    exercitationem! Ipsum, saepe.
-                    Ipsam veniam ex inventore itaque dolore in facilis sequi voluptates eveniet unde quae fuga eaque id
-                    officia soluta impedit similique, iusto, perspiciatis neque! Officiis, placeat molestiae perferendis
-                    modi nemo minus.
-                    Rerum, dolor distinctio? Tempora dolore consequuntur numquam mollitia? Odio sapiente vitae quasi
-                    mollitia, eligendi veniam ex pariatur qui. Possimus deleniti suscipit ducimus exercitationem?
-                    Delectus eos reprehenderit amet eveniet numquam mollitia.
-                    Cumque iure sequi blanditiis mollitia, recusandae aut? Asperiores error odit ipsa beatae sunt
-                    maiores, quas minus voluptates officia harum, in facilis dolore unde dolores quidem ullam, et qui
-                    omnis assumenda?
-                    Quasi dolores alias voluptas doloribus id sapiente eligendi placeat repellat suscipit impedit nemo
-                    odit neque ipsam, repudiandae reprehenderit optio autem. Soluta aut laboriosam ad quod cum obcaecati
-                    mollitia alias cupiditate.
-                    Laudantium sequi, laboriosam eos vero nam voluptates aut itaque hic repudiandae doloribus tenetur
-                    repellat maiores voluptas commodi veritatis vel, necessitatibus suscipit ut officiis voluptatem at
-                    ad ducimus sapiente incidunt? Debitis?
-                    Sint veritatis aperiam itaque culpa inventore voluptas aliquid ut. Laudantium expedita quasi nam
-                    quaerat, ipsa animi reiciendis fugiat. Error adipisci, odit corrupti facilis similique est ea dicta
-                    autem vitae quisquam!
                 </div>
             </div>
             <!-- right section >800px <1320px -->
